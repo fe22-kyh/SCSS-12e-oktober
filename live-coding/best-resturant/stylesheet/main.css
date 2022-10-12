@@ -1,0 +1,40 @@
+/* Variables file, responsible for declaring all variables*/
+.page-header {
+  background-color: #EB1D36;
+  color: #f1f1f1;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.page-nav {
+  text-align: center;
+}
+.page-nav ul {
+  list-style: none;
+}
+.page-nav .list-item {
+  padding: 0.5em 1em;
+  border: 1px solid #c1c1c1;
+}
+.page-nav .list-item:hover {
+  background-color: red;
+}
+.page-nav .item-text {
+  text-decoration: none;
+  color: #111;
+}
+.page-nav .item-text:hover {
+  color: #fff;
+}
+
+/* main layouts */
+/* css normaliser */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* css default background */
+body {
+  background-color: #F6F6F6;
+}/*# sourceMappingURL=main.css.map */

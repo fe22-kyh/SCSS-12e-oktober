@@ -1,0 +1,17 @@
+@use "abstract/variables" as *; //namespace av variables är globalt
+
+/* main layouts */ 
+@use "layout/header"; //Adds the header plugin (file)
+@use "layout/navbar";
+
+
+/* css normaliser */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* css default background */
+body {
+  background-color: $background-clr;
+}

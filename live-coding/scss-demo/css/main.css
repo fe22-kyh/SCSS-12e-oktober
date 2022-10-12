@@ -1,0 +1,25 @@
+/* _ means partial sass */
+.list {
+  list-style: none;
+  background-color: #a1a1a1;
+  color: #fff;
+  font-size: 2em;
+  padding: 0;
+}
+.list .list-item {
+  padding: 0.5em 1em;
+}
+.list .list-item:hover {
+  color: #000;
+}
+.list .list-item:nth-child(even) {
+  background-color: #c1c1c1;
+}
+
+.cool-list .list-item {
+  letter-spacing: 1em;
+}
+
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}/*# sourceMappingURL=main.css.map */

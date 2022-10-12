@@ -1,0 +1,8 @@
+@use "../abstract/variables" as *;
+
+.page-header {
+  background-color: $accent-clr;
+  color: #f1f1f1;
+  padding: .5em;
+  text-align: center;
+}
